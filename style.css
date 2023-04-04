@@ -1,0 +1,321 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+/* valores para todo el html y el body */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* valores especificos para el body */
+body {
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+/* fuente para todas las h */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed"
+}
+
+/* valores especificos para h1 */
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* valores especificos para h2 */
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+
+/* valores especificos para h3 */
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+/* valores especificos para h4 */
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+
+/* valores especificos para h5 */
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* valores para la barra de navegacion*/
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  padding: 14px 0;
+}
+
+/* valores referenciados para los elementos con referencia */
+.nav-bar a {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+
+/* valores para la cabecera */
+.header {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+/* valores para la frase*/
+.quote {
+  font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  bottom: 100px;
+}
+
+/* valores para usar en todo los background oscuros*/
+.dark-background {
+  background-color: rgb(25, 33, 41);
+  color: white;
+}
+
+/* valores para todo texto*/
+.text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* valores para los botones de los links*/
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+/* valores generales para el service box*/
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #EEE;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+
+/* valores especificos para las imagenes del service box*/
+.service-box img {
+  width: 125px;
+}
+
+/* valores para el texto de seccion del team*/
+#team .section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+/* valores para los nombres de los miembros del team*/
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+/* valores para las imagenes del team*/
+#team img {
+  width: 250px;
+  height: 180px;
+}
+
+/* valores para el footer*/
+ .footer {
+  font-size: 1.9em;
+  text-align: center;
+  padding: 40px 100px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* valores para la direccion*/
+.address {
+  font-size: 0.8em;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+/* valores para la lista del footer*/
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* valores para las referencias del footer*/
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+/* valores para la lista de la barra de navegacion*/
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* valores */
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* valores para los elementos container*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+/* valores generales para team */
+#team {
+  padding: 75px 0;
+  margin: 0 auto;
+}
+
+/* valores para los parrafos de team*/
+#team p {
+  width: 60%;
+  margin: 10px auto;
+}
+
+/* valores para la linea de separacion*/
+#team hr {
+  margin: 20px auto 30px auto;
+  width: 40%;
+}
+
+/* valores generales para la tabla*/
+.schedule-table {
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+}
+
+/* valores para la cabecera y el cuerpo de la tabla*/
+.schedule-table th, td {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+
+/* valores generales para g.i*/
+#general-information {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* valores especificos para los container del g.i */
+#general-information .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+}
+
+/* el estilo se aplica únicamente a los elementos div que son hijos directos 
+del elemento con el id #structure. 
+Esto significa que si hay elementos div anidados dentro de otros elementos div
+dentro del elemento #structure, estos elementos anidados no se verán afectados 
+por este estilo ya que no son hijos directos de #structure*/
+
+
+/* valores del hijo directo div del structure */
+#structure > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+/* valores del hijo directo div del team */
+#team > div {
+  display: flex;
+  justify-content: space-evenly;
+/*   flex-direction: row; */
+}
+
+/* estilo específico a todos los elementos article que fueran descendientes directos
+de un elemento div que, a su vez, fuera un hijo directo de un elemento con el id #team. */
+#team > div > article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* valores del marco del mapa */
+.map-frame {
+  height: 375px;
+  width: 60%;
+}
+
+/* valores del slot */
+.slot-form-container {
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* valores de la etiqueta del slot */
+.slot-form-container label {
+  line-height: 15px;
+  margin: 5px;
+}
+
+/* valores del input y select del slot */
+.slot-form-container input, select {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+
+/* valores del boton del slot */
+.slot-form-container button {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
